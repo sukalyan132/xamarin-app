@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Doctor Registration"
+             x:Class="CloudCakes.DoctorRegistrationSection">
+    <StackLayout Padding="20">
+        <Label Text="Create account" TextColor="Black" FontSize="20"></Label>
+        <Entry x:Name="UserName" Placeholder="User Name" WidthRequest="150" Keyboard="Default"></Entry>
+        <Entry x:Name="UserPassword" Placeholder="Password" WidthRequest="150" Keyboard="Default"></Entry>
+        <Entry x:Name="PhoneNo" Placeholder="Phone No" WidthRequest="150" Keyboard="Telephone"></Entry>
+        <Entry x:Name="FullName" Placeholder="Fullname" WidthRequest="150" Keyboard="Default"></Entry>
+        <Entry x:Name="EmailId" Placeholder="Email Id" WidthRequest="150" Keyboard="Email"></Entry>
+        <StackLayout Orientation="Horizontal">
+            <Button BackgroundColor="Gray" TextColor="White" Text="Save" Clicked="Save" />
+            <Button BackgroundColor="Maroon" TextColor="White" Text="Cancel" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

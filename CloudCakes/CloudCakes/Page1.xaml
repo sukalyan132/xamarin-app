@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CloudCakes.Page1"
+             Title="Welcome"
+             Padding="10, 10, 10, 10">
+    <ScrollView BackgroundColor="Teal">
+        <StackLayout>
+            <Button Text="Go To Baby Section"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor = "Orange"
+                TextColor="White"
+                Font="Large"
+                Clicked="OnButtonClicked"/>
+            <Button Text="Go To Doctor Section"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Font="Large"
+                BackgroundColor = "Orange"
+                TextColor="White"
+                Clicked="OnButtonClicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
