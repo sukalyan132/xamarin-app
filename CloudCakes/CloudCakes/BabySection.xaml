@@ -6,10 +6,10 @@
     <ContentPage.Content>
         <StackLayout Padding="20">
             <Label Text="Create account" TextColor="White" FontSize="20"></Label>
-            <Entry x:Name="FirstName" Placeholder="User Name" WidthRequest="150"></Entry>
-            <Entry x:Name="MiddleName" Placeholder="Password" WidthRequest="150"></Entry>
+            <Entry x:Name="UserName" Placeholder="User Name" WidthRequest="150"></Entry>
+            <Entry x:Name="Password"  IsPassword="true" Placeholder="Password" WidthRequest="150"></Entry>
             <StackLayout Orientation="Horizontal">
-                <Button BackgroundColor="Gray" TextColor="White" Text="Save" />
+                <Button BackgroundColor="Gray" TextColor="White" Text="Save" Clicked="Save" />
                 <Button BackgroundColor="Maroon" TextColor="White" Text="Cancel" />
             </StackLayout>
             <StackLayout>

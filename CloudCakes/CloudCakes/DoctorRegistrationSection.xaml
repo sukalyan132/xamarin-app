@@ -6,7 +6,7 @@
     <StackLayout Padding="20">
         <Label Text="Create account" TextColor="Black" FontSize="20"></Label>
         <Entry x:Name="UserName" Placeholder="User Name" WidthRequest="150" Keyboard="Default"></Entry>
-        <Entry x:Name="UserPassword" Placeholder="Password" WidthRequest="150" Keyboard="Default"></Entry>
+        <Entry x:Name="UserPassword" Placeholder="Password" IsPassword="true" WidthRequest="150" Keyboard="Default"></Entry>
         <Entry x:Name="PhoneNo" Placeholder="Phone No" WidthRequest="150" Keyboard="Telephone"></Entry>
         <Entry x:Name="FullName" Placeholder="Fullname" WidthRequest="150" Keyboard="Default"></Entry>
         <Entry x:Name="EmailId" Placeholder="Email Id" WidthRequest="150" Keyboard="Email"></Entry>

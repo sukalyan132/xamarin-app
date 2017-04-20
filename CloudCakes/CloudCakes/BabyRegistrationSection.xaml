@@ -12,8 +12,14 @@
         <Entry x:Name="PhoneNo" Placeholder="Phone No" WidthRequest="150" Keyboard="Telephone"></Entry>
         <Entry x:Name="FullName" Placeholder="Fullname" WidthRequest="150" Keyboard="Default"></Entry>
         <Entry x:Name="EmailId" Placeholder="Email Id" WidthRequest="150" Keyboard="Email"></Entry>
+        <Picker VerticalOptions="CenterAndExpand">
+            <Picker.Items>
+                <x:String>Item 1</x:String>
+                <x:String>Item 2</x:String>
+            </Picker.Items>
+        </Picker>
         <StackLayout Orientation="Horizontal">
-            <Button BackgroundColor="Gray" TextColor="White" Text="Save"  />
+            <Button BackgroundColor="Gray" TextColor="White" Text="Save" Clicked="Save" />
             <Button BackgroundColor="Maroon" TextColor="White" Text="Cancel" />
         </StackLayout>
     </StackLayout>

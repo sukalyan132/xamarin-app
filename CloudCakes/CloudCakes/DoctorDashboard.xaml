@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CloudCakes.DoctorDashboard">
+    <ScrollView>
+    <StackLayout BackgroundColor="White">
+        <ListView x:Name="ListView1" RowHeight="260">
+            <ListView.ItemTemplate>
+                
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical" Padding="8,0,8,0">
+                                <Label Text="{Binding baby_id.full_name}" TextColor="#000" FontSize="14" LineBreakMode="TailTruncation" />
+                                <Image Aspect="AspectFill" HeightRequest ="175" WidthRequest="75" Source="{Binding image_url}" />
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
